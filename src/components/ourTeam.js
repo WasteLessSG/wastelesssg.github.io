@@ -31,14 +31,6 @@ const ourTeam = () => {
                 <TeamPicture src={samuel.src}  name ={samuel.fullName}/>
             </div>
 
-
-
-
-
-
-
-
-
         </div>
 
     );
