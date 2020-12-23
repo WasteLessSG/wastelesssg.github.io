@@ -1,7 +1,7 @@
 import logo from './../assets/logo.png';
 import React from "react";
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
-import styled from 'styled-components';
+
 
 
 const NavigationBar = () => {
@@ -19,6 +19,7 @@ const NavigationBar = () => {
                             <Nav.Link href="/aboutUs">About Us</Nav.Link>
                             <Nav.Link href="/team">Our Team</Nav.Link>
                             <NavDropdown title="Our Solution"  href="/solution" id="collapsible-nav-dropdown">
+                                {/*@TODO change to a scroll to id*/}
                                 <NavDropdown.Item href="/solution">App</NavDropdown.Item>
                                 <NavDropdown.Item href="/solution">Hardware</NavDropdown.Item>
                             </NavDropdown>

@@ -1,7 +1,26 @@
 .App {
   text-align: center;
 }
+.flex-column{
+  align-items: center;
+}
+.teamPicture{
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row{
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  align-content: space-between;
+  text-align: center;
+  margin: 50px;
 
+
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
