@@ -6,7 +6,7 @@ const ourTeam = () => {
 
 
     return (
-        <div className='flex-column m-4'>
+        <div className='flex-column '>
             <h1 className='font-weight-bold'>Our Team</h1>
             <div className='row'>
                 <TeamPicture src={yewchong.src} description={yewchong.role} cof="Co-Founder" name ={yewchong.fullName}/>

@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import { Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import aboutUs from "./aboutUs.js";
 import contactUs from "./contactUs.js";
 import ourSolution from "./ourSolution.js";
 import Home from "./home.js";
 import ourTeam from './ourTeam.js';
-import history from './history.js';
 
 export default class Routes extends Component {
     render() {
         return (
-            <Router history={history}>
+            <HashRouter >
                 <Switch>
                     <Route path="/" exact component={Home} />
                     <Route path="/aboutUs" component={aboutUs} />
@@ -19,7 +18,7 @@ export default class Routes extends Component {
                     <Route path="/solution" component={ourSolution} />
                     <Route path="/contact" component={contactUs} />
                 </Switch>
-            </Router>
+            </HashRouter>
         )
     }
 }
