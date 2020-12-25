@@ -9,9 +9,9 @@ function App() {
   return (
       <Router>
           <div className="App ">
-{/*@TODO: Add padding after navbar and before footer*/}
-                  <NavigationBar/>
-                  <Routes/>
+
+                  <NavigationBar className = 'navigationBar'/>
+                  <Routes className = 'routes'/>
                   <Footer/>
 
           </div>
