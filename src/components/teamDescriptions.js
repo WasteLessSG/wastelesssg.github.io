@@ -1,5 +1,8 @@
-import TeamPicture from "./teampicture";
+import qienProfile from './../assets/qien2.png';
 import ardiProfile from './../assets/ardi.jpg';
+import chrisProfile from './../assets/chris.JPG';
+import samProfile from './../assets/samuel.JPG';
+import parkProfile from './../assets/park.jpg';
 import darrenProfile from './../assets/darren.jpeg';
 import pradeepProfile from './../assets/pradeep.jpg';
 import yewchongProfile from './../assets/yewchong.jpeg';
@@ -8,7 +11,7 @@ import yewchongProfile from './../assets/yewchong.jpeg';
 const pradeep = {
     fullName: "Pradeep Mani Rathnam",
     cof : "Co-Founder",
-    role: "Deputy President (Operations)",
+    role: "VP of Finance",
     src: pradeepProfile
 };
 
@@ -22,21 +25,22 @@ const yewchong = {
 const ardi = {
     fullName: "Anthony Ardi Sukotjo",
     cof : "Co-Founder",
-    role: "Deputy President (Technology)",
+    role: "VP of Software Development",
 src: ardiProfile,
     };
 
 const samuel = {
     fullName: "Samuel Yeo",
     cof : "Co-Founder",
-    role: "Director of Marketing and Publicity ",
-src: pradeepProfile ,
+    role: "VP of Operations",
+src: samProfile ,
     };
 
 const chris = {
     fullName: "Chris Li",
-    role:"Director of Engineering",
-src: pradeepProfile,
+    cof : "Co-Founder",
+    role:"VP of Hardware Engineering",
+src: chrisProfile,
     };
 const darren = {
     fullName: "Darren Hoon",
@@ -46,12 +50,12 @@ const darren = {
 const park= {
     fullName: "Park Jun Hyeong",
     role:"",
-    src: pradeepProfile,
+    src: parkProfile,
 };
 const qien= {
     fullName: "Tan Qi En",
     role:"",
-    src: pradeepProfile,
+    src: qienProfile,
 };
 
 

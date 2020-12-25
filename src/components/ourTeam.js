@@ -14,7 +14,7 @@ const ourTeam = () => {
             <div className='row'>
                 <TeamPicture src={pradeep.src} description={pradeep.role} cof="Co-Founder" name ={pradeep.fullName}/>
                 <TeamPicture src={ardi.src} description={ardi.role} cof="Co-Founder" name ={ardi.fullName}/>
-                <TeamPicture src={chris.src} description={chris.role} cof="" name ={chris.fullName}/>
+                <TeamPicture src={chris.src} description={chris.role} cof="Co-Founder" name ={chris.fullName}/>
                 <TeamPicture src={samuel.src} description={samuel.role} cof="Co-Founder" name ={samuel.fullName}/>
             </div>
             <h2>Engineering Team</h2>
