@@ -5,6 +5,7 @@ import samProfile from './../assets/samuel.JPG';
 import parkProfile from './../assets/park.jpg';
 import darrenProfile from './../assets/darren.jpeg';
 import pradeepProfile from './../assets/pradeep.jpg';
+import deliangProfile from './../assets/deliang.jpeg';
 import yewchongProfile from './../assets/yewchong.jpeg';
 
 
@@ -57,6 +58,11 @@ const qien= {
     role:"",
     src: qienProfile,
 };
+const deliang= {
+    fullName: "Loo Deliang",
+    role:"",
+    src: deliangProfile,
+};
 
 
- export {pradeep,yewchong,ardi,samuel,chris,darren,qien,park,};
+ export {pradeep,yewchong,ardi,samuel,chris,darren,qien,park,deliang};

@@ -1,6 +1,6 @@
 import React from "react";
 import TeamPicture from "./teampicture";
-import {pradeep,yewchong,ardi,samuel,chris,darren,qien,park,} from './teamDescriptions';
+import {pradeep, yewchong, ardi, samuel, chris, darren, qien, park, deliang,} from './teamDescriptions';
 
 const ourTeam = () => {
 
@@ -16,6 +16,10 @@ const ourTeam = () => {
                 <TeamPicture src={ardi.src} description={ardi.role} cof="Co-Founder" name ={ardi.fullName}/>
                 <TeamPicture src={chris.src} description={chris.role} cof="Co-Founder" name ={chris.fullName}/>
                 <TeamPicture src={samuel.src} description={samuel.role} cof="Co-Founder" name ={samuel.fullName}/>
+            </div>
+            <h2>Advisor</h2>
+            <div className='row'>
+                <TeamPicture src={deliang.src}  name ={deliang.fullName}/>
             </div>
             <h2>Engineering Team</h2>
             <div className='row'>
