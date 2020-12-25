@@ -24,6 +24,7 @@ const Footer = () => {
                     <h5> Stay Connected </h5>
                     <SocialIcon className='socialMediaIcons' url="http://instagram.com/wasteless_sg" />
                     <SocialIcon className='socialMediaIcons' url="https://www.linkedin.com/company/wasteless-singapore/" />
+                    <SocialIcon className='socialMediaIcons' url="https://github.com/WasteLessSG" />
                     <SocialIcon className='socialMediaIcons' url="mailto:sgwasteless@gmail.com" />
 
                 </div>
