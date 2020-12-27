@@ -6,6 +6,7 @@ import contactUs from "./contactUs.js";
 import ourSolution from "./ourSolution.js";
 import Home from "./home.js";
 import ourTeam from './ourTeam.js';
+import contactUsSuccess from './contactUsSuccess';
 
 export default class Routes extends Component {
     render() {
@@ -17,6 +18,7 @@ export default class Routes extends Component {
                     <Route path="/team" component={ourTeam} />
                     <Route path="/solution" component={ourSolution} />
                     <Route path="/contact" component={contactUs} />
+                    <Route path="/contactSuccess" component={contactUsSuccess} />
                 </Switch>
             </HashRouter>
         )
