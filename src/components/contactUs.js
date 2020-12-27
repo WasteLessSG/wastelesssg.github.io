@@ -5,7 +5,7 @@ const contactUs = () => {
 
     return (
         <div>
-            <h1 style={{margin: '0px 0px 50px 0px',}}> Contact Us!</h1>
+            <h1 style={{margin: '0px 0px 50px 0px',}} className='font-weight-bold'> Contact Us!</h1>
             <h4> We would like to hear from you! Fill up this form below or email us at <a href='mailto:sgwasteless@gmail.com'>sgwasteless@gmail.com</a>.</h4>
             <Form className='contact-form'>
                 <Form.Group controlId="formBasicEmail" className='formContents' style={{margin: '0px 0px 20px 0px'}}>
