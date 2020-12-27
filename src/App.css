@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  min-height: 100%;
-
 }
+
 .flex-column{
   align-items: center;
 }
@@ -40,11 +39,13 @@
 }
 .footerContents{
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: auto;
   align-content: start;
   text-align: left;
   padding-left: 30px;
   padding-right: 30px;
+  vertical-align: top;
+
 }
 .footerLogo{
   display: block;
@@ -56,6 +57,7 @@
 }
 .copyrightLine{
   padding-bottom: 20px;
+  margin-top: 10px;
 }
 .socialMediaIcons{
   margin-right: 10px;
@@ -87,6 +89,20 @@ color: white;
 color: #61dafb;
 }
 
+.topNavBar{
+  margin-bottom: 20px;
+  background-color: #205F26;
+}
+
+
+.nav-dropdown-menu-item:hover {
+  background-color:#4A5D23;
+  color:red;
+}
+.dropdown-menu {
+  background-color: #8A9A5B;
+  padding: 0px 0px;
+}
 @keyframes App-logo-spin {
 from {
 transform: rotate(0deg);
@@ -96,7 +112,33 @@ transform: rotate(360deg);
 }
 }
 
-.topNavBar{
-margin-bottom: 20px;
+.footerButton{
+  align-items: center;
+  align-content: center;
+  vertical-align: top;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-form {
+
+  margin: 40px auto 40px auto;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  display: block;
+  max-width: 420px;
+
+}
+
+#contactButton{
+  text-align: center;
+}
+
+.formContents{
+
+  margin-bottom: 25px;
+
 }
 

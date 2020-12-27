@@ -1,12 +1,14 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
-import logo from './../assets/logo.png';
+import logo from './../assets/logo.png'
 
-const Footer = () => {
+
+    const Footer = () => {
+
     return(
         <div className="container footer">
             <div className='row'>
-                <div className='col-sm-auto footerContents'>
+                <div className='col-sm-auto '>
                     <a href='#/'><img src ={logo} alt='WasteLess Logo' height={125} width={125} className='footerLogo' /></a>
                 </div>
                 <div className='col-sm-auto footerLinks footerContents'>
@@ -24,8 +26,8 @@ const Footer = () => {
                     <h5> Stay Connected </h5>
                     <SocialIcon className='socialMediaIcons' url="http://instagram.com/wasteless_sg" />
                     <SocialIcon className='socialMediaIcons' url="https://www.linkedin.com/company/wasteless-singapore/" />
-                    <SocialIcon className='socialMediaIcons' url="https://github.com/WasteLessSG" />
-                    <SocialIcon className='socialMediaIcons' url="mailto:sgwasteless@gmail.com" />
+                        <SocialIcon className='socialMediaIcons' url="https://github.com/WasteLessSG" />
+                        <SocialIcon className='socialMediaIcons' url="mailto:sgwasteless@gmail.com" />
 
                 </div>
             </div>
