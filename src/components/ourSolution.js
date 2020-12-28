@@ -1,4 +1,8 @@
 import React from "react";
+import HistoryPage from './../assets/HistoryPage.png';
+import LeaderboardPage from './../assets/LeaderboardPage.png';
+import StatisticsPage from './../assets/StatisticsPage.png';
+import Apppicture from "./Apppicture";
 
 const ourSolution = () => {
 
@@ -17,7 +21,11 @@ const ourSolution = () => {
             <text> Behavioural psychology or behaviourism, is a theory suggesting that the environment shapes human behaviour. In a most basic sense, behavioural psychology is the study and analysis of observable behaviour. This field of psychology influenced thought heavily throughout the middle of the 20th century.</text>
 
         <h2 id="app" > App </h2>
-            <text> Lorem </text>
+          <text>Our mobile app is designed with usability, usefulness in mind for our users. Monitor wastage and compare your daily performance against neighbours and the nation with our realtime leaderboards.</text>
+            <text> Provides access to individual waste disposal trends </text>
+            <Apppicture src={HistoryPage}/>
+            <text> Community Leaderboard enables users to compare their performance with the rest of the community </text>
+            <text> Seamlessly links waste data with the App when waste is disposed using our Smart Bin </text>
 
             <h2 id="hardware"> Hardware </h2>
             <text> Lorem .</text>
