@@ -1,8 +1,4 @@
 import React from "react";
-import HistoryPage from './../assets/HistoryPage.png';
-import LeaderboardPage from './../assets/LeaderboardPage.png';
-import StatisticsPage from './../assets/StatisticsPage.png';
-import Apppicture from "./Apppicture";
 
 const ourSolution = () => {
 
