@@ -1,12 +1,12 @@
 import React from "react";
 import Apppicture from "./Apppicture";
-import {leaderboardsection,historysection,statisticsection,} from './AppDescriptions';
+import {leaderboardsection,historysection,statisticsection} from './AppDescriptions';
 
 const ourSolution = () => {
 
     return (
         <container>
-        <h1>Our Solution</h1>
+        <h1>Our Solution what is this </h1>
           <h2>A CLEANER, GREENER SINGAPORE</h2>
             <text> WasteLess promotes green habits and provides an avenue for Singaporeans to take measurable steps in safeguarding our environment.</text>
           <h2>TRACK WASTAGE</h2>
@@ -21,7 +21,9 @@ const ourSolution = () => {
         <h2 id="app" > App </h2>
           <text>Our mobile app is designed with usability, usefulness in mind for our users. Monitor wastage and compare your daily performance against neighbours and the nation with our realtime leaderboards.</text>
           <div className='row teamRows'>
-            <Apppicture src={leaderboardsection.src} description={leaderboardsection.fulltext} cof="Co-Founder" name ="test"/>
+            <Apppicture src={leaderboardsection.src} description={leaderboardsection.headertext} name={leaderboardsection.name} elaboration={leaderboardsection.elaboration}/>
+            <Apppicture src={historysection.src} description={historysection.headertext} name={historysection.name} elaboration={historysection.elaboration}/>
+            <Apppicture src={statisticsection.src} description={statisticsection.headertext} name={statisticsection.name} elaboration={statisticsection.elaboration}/>
           </div>
             <h2 id="hardware"> Hardware </h2>
             <text> Lorem .</text>

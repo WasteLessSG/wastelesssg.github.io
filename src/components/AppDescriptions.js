@@ -4,23 +4,23 @@ import statistics from './../assets/StatisticsPage.png';
 
 
 const leaderboardsection = {
-    fulltext: "Community Leaderboard  enables users to compare their performance with the rest of the community",
-    cof : "Co-Founder",
-    role: "VP of Finance",
+    headertext: "Community Leaderboard enables users to compare their performance with the rest of the community",
+    name : "Community Leaderboard",
+    elaboration: "The leaderboard section very nice one",
     src: leaderboard
 };
 
 const historysection = {
-    fulltext: "Seamlessly links waste data with the App when waste is disposed using our Smart Bin",
-    cof : "Co-Founder",
-    role: "VP of Finance",
+    headertext: "Seamlessly links waste data with the App when waste is disposed using our Smart Bin",
+    name : "History Page",
+    elaboration: "add bs ",
     src: history
 };
 
 const statisticsection = {
-    fulltext: "Provides access to individual waste disposal trends",
-    cof : "Co-Founder",
-    role: "VP of Finance",
+    headertext: "Provides access to individual waste disposal trends",
+    name : "Statistics Page",
+    elaboration: "more bs ",
     src: statistics
 };
 
