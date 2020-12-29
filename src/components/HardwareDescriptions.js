@@ -1,28 +1,20 @@
-import leaderboard from './../assets/LeaderboardPage.png';
-import history from './../assets/HistoryPage.png';
-import statistics from './../assets/StatisticsPage.png';
+import solenoidlock from './../assets/Solenoidlocktwo.JPG';
+import weightsensor from './../assets/WeightSensor.JPG';
 
 
-const leaderboardsection = {
-    headertext: "Community Leaderboard enables users to compare their performance with the rest of the community",
-    name : "Community Leaderboard",
+const outersection = {
+    headertext: "A solenoid lock will be installed into the chute door. The control electronics and user interface will be attached to the exterior.",
+    name : "Outer Panel",
     elaboration: "The leaderboard section very nice one",
-    src: leaderboard
+    src: solenoidlock
 };
 
-const historysection = {
-    headertext: "Seamlessly links waste data with the App when waste is disposed using our Smart Bin",
-    name : "History Page",
+const innersection = {
+    headertext: "Two acrylic sheets with load cells (weight sensors) will be installed on the interior to measure the weight of the trash as it is disposed of.",
+    name : "Inner Panel",
     elaboration: "add bs ",
-    src: history
-};
-
-const statisticsection = {
-    headertext: "Provides access to individual waste disposal trends",
-    name : "Statistics Page",
-    elaboration: "more bs ",
-    src: statistics
+    src: weightsensor
 };
 
 
-export {leaderboardsection,historysection,statisticsection};
+export {outersection,innersection};

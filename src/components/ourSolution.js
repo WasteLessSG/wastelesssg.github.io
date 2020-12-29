@@ -1,6 +1,8 @@
 import React from "react";
 import Apppicture from "./Apppicture";
+import Hardwarepicture from "./Hardwarepicture";
 import {leaderboardsection,historysection,statisticsection} from './AppDescriptions';
+import {outersection,innersection} from './HardwareDescriptions'
 
 const ourSolution = () => {
 
@@ -26,7 +28,11 @@ const ourSolution = () => {
             <Apppicture src={statisticsection.src} description={statisticsection.headertext} name={statisticsection.name} elaboration={statisticsection.elaboration}/>
           </div>
             <h2 id="hardware"> Hardware </h2>
-            <text> Lorem .</text>
+            <text> Our Internet-of-Things networked smart chute electronics will be installed on existing rubbish chutes to convert them into WasteLess chutes.</text>
+            <div className='row teamRows'>
+              <Hardwarepicture src={outersection.src} description={outersection.headertext} name={outersection.name} elaboration={outersection.elaboration}/>
+              <Hardwarepicture src={innersection.src} description={innersection.headertext} name={innersection.name} elaboration={innersection.elaboration}/>
+            </div>
         </container>
     );
 
