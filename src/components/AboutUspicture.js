@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 const AboutUspicture = (props) =>{
     return(
         <div className="AboutUspicture">
@@ -8,7 +9,12 @@ const AboutUspicture = (props) =>{
             <p></p>
             <p></p>
             <h5 className="font-weight-bold">{props.description}</h5>
-            <h5 className=" mb-3">{props.elaboration}</h5>
+            <p></p>
+            <div class="container-md">
+              <h5 className=" mb-3">
+            {props.elaboration}</h5>
+            </div>
+            
         </div>
     );
 }
