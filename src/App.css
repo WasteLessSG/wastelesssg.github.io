@@ -83,14 +83,15 @@ animation: App-logo-spin infinite 20s linear;
   height: 100%;
   width: 100%;
   text-align: center;
-  padding: 70px;
+  padding-top: 70px;
 }
 
 .progressIcons{
   color: white;
 }
 .comingsoontext{
-  font-size: 150px;
+  font-size: min(20vmin,150px);
+/*min(max(16px, 4vw), 50px);*/
   margin-top: 30px;
   margin-bottom: 30px;
 }
