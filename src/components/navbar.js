@@ -2,6 +2,7 @@ import logo from './../assets/logo.png';
 import React from "react";
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import logos from './../assets/blackLogo.png';
 
 
 
@@ -11,7 +12,7 @@ const NavigationBar = () => {
                     <Navbar collapseOnSelect expand="lg"  variant='dark'  sticky="top"  >
                         <Nav className="mr-auto">
                             <a className="navbar-brand" href="/">
-                                {/*<img src={logo} width={30} height={30} alt = ""  className="d-inline-block mr-1"/>*/}
+                                <img className= "nav-logo" src= {logos} alt = ""/>
                                 <span className='font-weight-bolder'>WasteLess</span>
                             </a>
                         </Nav>
