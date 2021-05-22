@@ -9,9 +9,10 @@
 .overview_desc {
   display: flex;
   align-items: flex-start;
-  padding-left: 22vw;
+  padding-left: 27vw;
   color: black;
   padding-top: 10px;
+  margin-bottom: -60px;
 }
 
 .alignment_two{
@@ -32,8 +33,8 @@
 .overiew_elab {
   position: relative;
   margin-left: 50%;
-  margin-right: 10%;
-  top: -300px;
+  margin-right: 20%;
+  top: -250px;
   color: black;
 
 }
@@ -42,7 +43,7 @@
   display: flex;
   align-items: center;
   padding-top: 35px;
-  padding-left: 20vw;
+  padding-left: 25vw;
   height: 400px;
   width: auto;
 
@@ -63,19 +64,23 @@
 .overview_desctwo {
   display: flex;
   align-items: flex-start;
-  padding-left: 50vw;
+  padding-left: 65vw;
   color: black;
   padding-top: 10px;
+  margin-bottom: -80px;
 }
 
 .overiew_elabtwo {
   position: relative;
-  margin-left: 10%;
-  margin-right: 50%;
-  top: -300px;
+  margin-left: 18%;
+  margin-right: 55%;
+  top: -200px;
   color: black;
 }
 
+.wastelessexperience {
+  padding-top: 30px;
+}
 
 .goal_elab {
   color: grey;

@@ -27,7 +27,7 @@ const aboutUs = () => {
           <div className='alignment_three'>
           <Overviewpicturetwo src={hardwareoverview.src} description={hardwareoverview.headertext} elaboration={hardwareoverview.elaboration}/>
           </div>
-        <h2>The WasteLess Experience</h2>
+        <h2 className='wastelessexperience'>The WasteLess Experience</h2>
           <div className='desc-text'> After months of design, development and testing, WasteLess will be officially rolled out on January 11th 2021 in a three-month trial at the National University of Singapore’s Tembusu Residential College. The trial will involve some 60 Tembusu residents who will have their existing community rubbish chutes on their levels replaced by WasteLess smart chutes. Supported by the South West Community Development Council and the National Environmental Agency, the WasteLess team hopes to prove the effectiveness of behavioural nudging in managing domestic waste production.</div>
       </container>
 
