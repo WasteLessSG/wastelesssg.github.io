@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.acb5c782.chunk.css",
-    "main.js": "/static/js/main.8e47a3b3.chunk.js",
-    "main.js.map": "/static/js/main.8e47a3b3.chunk.js.map",
+    "main.css": "/static/css/main.475f413f.chunk.css",
+    "main.js": "/static/js/main.6543c020.chunk.js",
+    "main.js.map": "/static/js/main.6543c020.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2e82db69.js",
     "runtime-main.js.map": "/static/js/runtime-main.2e82db69.js.map",
     "static/css/2.658248ec.chunk.css": "/static/css/2.658248ec.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a4a8509e.chunk.js.map": "/static/js/3.a4a8509e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.acb5c782.chunk.css.map": "/static/css/main.acb5c782.chunk.css.map",
+    "static/css/main.475f413f.chunk.css.map": "/static/css/main.475f413f.chunk.css.map",
     "static/js/2.aa7b8a10.chunk.js.LICENSE.txt": "/static/js/2.aa7b8a10.chunk.js.LICENSE.txt",
     "static/media/AppMock.e54038dc.png": "/static/media/AppMock.e54038dc.png",
     "static/media/BrainAnimation.4a07a972.png": "/static/media/BrainAnimation.4a07a972.png",
@@ -20,9 +20,11 @@
     "static/media/Homepic.23536c2d.jpeg": "/static/media/Homepic.23536c2d.jpeg",
     "static/media/IphoneAnimation.d1caebed.png": "/static/media/IphoneAnimation.d1caebed.png",
     "static/media/LeaderboardPage.b549cca2.png": "/static/media/LeaderboardPage.b549cca2.png",
+    "static/media/OurSolIntro.a4a1051b.JPG": "/static/media/OurSolIntro.a4a1051b.JPG",
     "static/media/SettingsAnimation.ef9da7a6.png": "/static/media/SettingsAnimation.ef9da7a6.png",
     "static/media/Solenoidlocktwo.3f084708.JPG": "/static/media/Solenoidlocktwo.3f084708.JPG",
     "static/media/StatisticsPage.243c15ad.png": "/static/media/StatisticsPage.243c15ad.png",
+    "static/media/Team_intro.c05d0b98.JPG": "/static/media/Team_intro.c05d0b98.JPG",
     "static/media/WeightSensor.3a8dbf47.JPG": "/static/media/WeightSensor.3a8dbf47.JPG",
     "static/media/ardi.7fc63091.jpg": "/static/media/ardi.7fc63091.jpg",
     "static/media/chris.37083c87.JPG": "/static/media/chris.37083c87.JPG",
@@ -38,7 +40,7 @@
     "static/js/runtime-main.2e82db69.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.aa7b8a10.chunk.js",
-    "static/css/main.acb5c782.chunk.css",
-    "static/js/main.8e47a3b3.chunk.js"
+    "static/css/main.475f413f.chunk.css",
+    "static/js/main.6543c020.chunk.js"
   ]
 }
