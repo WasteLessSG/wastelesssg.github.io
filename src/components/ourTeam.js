@@ -1,5 +1,6 @@
 import React from "react";
 import TeamPicture from "./teampicture";
+import GroupPic from "./../assets/Team_intro.JPG"
 import {pradeep, yewchong, ardi, samuel, chris, darren, qien, park, deliang,} from './teamDescriptions';
 
 const ourTeam = () => {
@@ -7,7 +8,8 @@ const ourTeam = () => {
 
     return (
         <div className='flex-column '>
-            <h1 className='font-weight-bold'>Our Team</h1>
+            <img className="Sol_intro_pic" src={GroupPic} alt="group pic"/>
+            <h1 className='Team_text'>Our Team</h1>
             <div className='row teamRows'>
                 <TeamPicture src={yewchong.src} description={yewchong.role} cof="Co-Founder" name ={yewchong.fullName}/>
             </div >

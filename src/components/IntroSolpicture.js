@@ -4,10 +4,9 @@ import React from "react";
 const IntroSolpicture = (props) =>{
     return(
         <div className="IntroSolpicture">
-            <img src={props.src} className="rounded-circle" height={245} width={245} alt=""/>
-            <h5 className="font-weight-bold mt-4" style={{color:'blue'}}>{props.name}</h5>
-            <h5 className="font-weight-bold">{props.description}</h5>
-            <h5 className=" mb-3">{props.elaboration}</h5>
+            <img src={props.src} className="Sol_pic" alt=""/>
+            <h5 className="goal_class">{props.description}</h5>
+            <h6 className="goal_elab">{props.elaboration}</h6>
         </div>
     );
 }
