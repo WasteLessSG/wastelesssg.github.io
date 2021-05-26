@@ -19,7 +19,9 @@
   font-size: 80px;
   z-index: +1;
 }
-.Overview_picture {
+.Overview_picturetwo {
+  position: relative;
+  padding-top: 40px;
 }
 
 .intro_text {
@@ -43,6 +45,7 @@
 
 .alignment_two{
   background-color: #e3e8cf;
+  padding-top: 30px;
 }
 
 .desc-text {
@@ -66,10 +69,11 @@
 }
 
 .overview_image {
-  display: flex;
-  align-items: center;
-  padding-top: 35px;
-  padding-left: 25vw;
+  display: block;
+  margin-left: 25vw;
+  margin-top: 1px;
+  border: 10px solid #555;
+  border-radius: 8%;
   height: 400px;
   width: auto;
 
@@ -77,11 +81,10 @@
 }
 
 .overview_imagetwo  {
-  display: flex;
-  padding-top: 50px;
-  padding-left: 55vw;
-  margin-top: -15px;
-
+  display: block;
+  margin-left: 52vw;
+  border: 10px solid #555;
+  border-radius: 8%;
   height: 400px;
   width: auto;
 
@@ -197,10 +200,18 @@
 
 .app_pics{
   height: 450px;
+  border: 10px solid #555;
+  border-radius: 8%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.hardpic {
+  margin-top: 10px;
+  border: 5px solid #555;
+  border-radius: 5%;
 }
 .app_desc{
   margin-left: 100px;

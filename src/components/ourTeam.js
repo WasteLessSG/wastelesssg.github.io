@@ -1,7 +1,7 @@
 import React from "react";
 import TeamPicture from "./teampicture";
 import GroupPic from "./../assets/Team_intro.JPG"
-import {pradeep, yewchong, ardi, samuel, chris, darren, qien, park, deliang,} from './teamDescriptions';
+import {pradeep,yewchong,ardi,samuel,chris,darren,qien,deliang, raphael, mindy, jiawen} from './teamDescriptions';
 
 const ourTeam = () => {
 
@@ -19,24 +19,33 @@ const ourTeam = () => {
                 <TeamPicture src={chris.src} description={chris.role} cof="Co-Founder" name ={chris.fullName}/>
                 <TeamPicture src={samuel.src} description={samuel.role} cof="Co-Founder" name ={samuel.fullName}/>
             </div>
-            <h2>Advisor</h2>
+            <h2>Advisors</h2>
+            <br/>
             <div className='row teamRows'>
                 <TeamPicture src={deliang.src}  name ={deliang.fullName}/>
+                <TeamPicture src={mindy.src}  name ={mindy.fullName}/>
             </div>
             <h2>Engineering Team</h2>
+            <br/>
             <div className='row teamRows'>
                 <TeamPicture src={chris.src}  name ={chris.fullName}/>
-                <TeamPicture src={park.src}  name ={park.fullName}/>
+                <TeamPicture src={jiawen.src}  name ={jiawen.fullName}/>
             </div>
             <h2>Web and App Development Team</h2>
             <div className='row teamRows'>
                 <TeamPicture src={ardi.src} name ={ardi.fullName}/>
                 <TeamPicture src={qien.src} name ={qien.fullName}/>
-                <TeamPicture src={darren.src} name ={darren.fullName}/>
+                <TeamPicture src={samuel.src}  name ={samuel.fullName}/>
+
             </div>
             <div className = 'row teamRows'>
                 <TeamPicture src={pradeep.src}  name ={pradeep.fullName}/>
+                <TeamPicture src={darren.src} name ={darren.fullName}/>
+            </div>
+            <h2>Media and Public Relations</h2>
+            <div className='row teamRows'>
                 <TeamPicture src={samuel.src}  name ={samuel.fullName}/>
+                <TeamPicture src={raphael.src} name ={raphael.fullName}/>
             </div>
 
         </div>
