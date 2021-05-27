@@ -15,7 +15,7 @@ const ourSolution = () => {
 
     return (
         <container>
-        <img className='Sol_intro_pic' src={IntroPic} alt="solution pic"/>
+        <img className='Sol_intro_pic' src={IntroPic} alt="solution pi"/>
         <h1 className='intro_text'>Our Solution </h1>
         <div className='Sol_team_rows'>
             <IntroSolpicture src={tracking.src} description={tracking.headertext} name=" " elaboration={tracking.elaboration}/>

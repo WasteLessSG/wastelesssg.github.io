@@ -3,7 +3,7 @@ import React from "react";
 
 const Apppicturethree = (props) =>{
     return(
-        <div className="Apppicture" style={{backgroundColor: '#CCE1BD', width: '33.3vw'}}>
+        <div className="Apppicture" style={{backgroundColor: '#CCE1BD'}}>
             <h5 className='app_name'>{props.name}</h5>
             <h6 className='app_desc'>{props.description}</h6>
             <br/>
