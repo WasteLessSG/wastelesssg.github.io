@@ -56,7 +56,7 @@ const darren = {
     src: darrenProfile,
 };
 const jiawen= {
-    fullName: "Teh Jiawen",
+    fullName: "Teh Jiewen",
     role:"",
     src: jiawenProfile,
 };
@@ -67,13 +67,13 @@ const qien= {
 };
 const deliang= {
     fullName: "Loo Deliang",
-    role:"",
+    role:"National University of Singapore",
     src: deliangProfile,
 };
 
 const mindy= {
-    fullName: "Mindy",
-    role:"",
+    fullName: "Mindy Ong",
+    role:"National University of Singapore",
     src: mindyProfile,
 };
 

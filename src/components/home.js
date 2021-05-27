@@ -19,7 +19,7 @@ const aboutUs = () => {
           <Goalspicture src={promote.src} description={promote.headertext} name=" " elaboration={promote.elaboration}/>
           <Goalspicture src={policy.src} description={policy.headertext} name=" " elaboration={policy.elaboration}/>
         </div>
-        <h2>Bridging Behavioural Psychology and Waste Management</h2>
+        <h2 className="bridge-text">Bridging Behavioural Psychology and Waste Management</h2>
           <div className='desc-text'> Behavioural psychology or behaviourism, is a theory suggesting that the environment shapes human behaviour. In a most basic sense, behavioural psychology is the study and analysis of observable behaviour. Using the concept of behavioural nudging and diffusion of responsibility, WasteLess aims to implement a two-prong solution, to incentivise sustainable waste habits (reduce trash production and increasing recycling), by allowing users to track and visualize their personal waste statistics, and compare their performance with peers of the same community. </div>
             <br/>
           <div className='alignment_two'>

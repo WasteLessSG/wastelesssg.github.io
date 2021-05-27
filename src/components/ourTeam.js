@@ -9,7 +9,7 @@ const ourTeam = () => {
     return (
         <div className='flex-column '>
             <img className="Sol_intro_pic" src={GroupPic} alt="group pic"/>
-            <h1 className='Team_text'>Our Team</h1>
+            <h1 className='home-title'>Our Team</h1>
             <div className='row teamRows'>
                 <TeamPicture src={yewchong.src} description={yewchong.role} cof="Co-Founder" name ={yewchong.fullName}/>
             </div >
@@ -22,8 +22,8 @@ const ourTeam = () => {
             <h2>Advisors</h2>
             <br/>
             <div className='row teamRows'>
-                <TeamPicture src={deliang.src}  name ={deliang.fullName}/>
-                <TeamPicture src={mindy.src}  name ={mindy.fullName}/>
+                <TeamPicture src={deliang.src} description={deliang.role} cof="Associate Director (Analytics & Behavioral Change)" name ={deliang.fullName}/>
+                <TeamPicture src={mindy.src} description={mindy.role} cof="Assistant Manager (Analytics & Behavioral Change)" name ={mindy.fullName}/>
             </div>
             <h2>Engineering Team</h2>
             <br/>

@@ -76,8 +76,6 @@
   border-radius: 8%;
   height: 400px;
   width: auto;
-
-
 }
 
 .overview_imagetwo  {
@@ -186,6 +184,7 @@
 }
 
 .teamRows {
+  position: static;
   margin:50px;
   display: flex;
   justify-content: space-evenly;
@@ -400,4 +399,84 @@ transform: rotate(360deg);
 .messageSentText{
   margin-top: 100px;
   /*font-size: 50px;*/
+}
+
+@media screen and (max-width: 1000px) {
+  .home-text {
+    display: none;
+
+  }
+
+  div.lol {
+      margin:20px;
+
+  }
+  .home-title {
+    position: relative;
+    margin-top: -30%;
+    margin-bottom: 20%;
+  }
+  .Goalspicture {
+    height: 150px;
+    width: auto;
+}
+.overiew_elab {
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 100px;
+  color: black;
+
+}
+
+.overview_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.overview_desc {
+  display: block;
+  padding-left: 0px;
+  text-align: center;
+  top: 10px;
+  color: black;
+}
+
+.overview_desctwo {
+  display: block;
+  padding-left: 0px;
+  text-align: center;
+  top: 10px;
+  color: black;
+}
+
+.bridge-text {
+  margin-top: -60px;
+}
+
+.alignment_two {
+  height: 720px;
+}
+
+.alignment_three {
+  height: 700px;
+}
+
+.overview_imagetwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.overiew_elabtwo {
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 100px;
+  color: black;
+
+}
 }
