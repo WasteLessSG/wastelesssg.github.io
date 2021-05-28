@@ -19,6 +19,7 @@ import logo from "./assets/logo.png";
            <div className="App ">
                   <NavigationBar className = 'navigationBar'/>
                   <Route path="/" exact component={Home} />
+                  <Route path="/aboutus" component={aboutUs}/>
                   <Route path="/team" component={ourTeam} />
                   <Route path="/solution" component={ourSolution} />
                   <Route path="/contact" component={contactUs} />

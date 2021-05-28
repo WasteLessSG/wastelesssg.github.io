@@ -15,55 +15,75 @@ const pradeep = {
     fullName: "Pradeep Mani Rathnam",
     cof : "Co-Founder",
     role: "VP of Finance/ Web Development",
-    src: pradeepProfile
+    src: pradeepProfile,
+    linkpresent: true,
+    link: "https://www.linkedin.com/in/anthonysukotjo/",
 };
 
 const raphael = {
   fullName: "Raphael Roshan",
-  src: rapheProfile
-}
+  src: rapheProfile,
+  linkpresent: true,
+  link: "https://www.linkedin.com/in/raphael-roshan-joseph/",
+};
 
 const yewchong = {
     fullName: "Neo Yew Chong",
     cof : "Co-Founder",
     role: "President",
-    src: yewchongProfile
+    src: yewchongProfile,
+    linkpresent: true,
+    link: "https://www.linkedin.com/in/yew-chong-neo/",
 };
 
 const ardi = {
     fullName: "Anthony Ardi Sukotjo",
     cof : "Co-Founder",
     role: "VP of Software Development",
-src: ardiProfile,
+    linkpresent: true,
+    link: "https://www.linkedin.com/in/anthonysukotjo/",
+    src: ardiProfile,
     };
 
 const samuel = {
     fullName: "Samuel Yeo",
     cof : "Co-Founder",
     role: "VP of Operations/ Public Relations",
-src: samProfile ,
+    src: samProfile ,
+    linkpresent: true,
+    link: "undefined",
     };
 
 const chris = {
     fullName: "Chris Li",
     cof : "Co-Founder",
     role:"VP of Hardware Engineering",
-src: chrisProfile,
+    src: chrisProfile,
+    linkpresent: true,
+    link: "https://www.linkedin.com/in/christopher-li-a729b2160/",
     };
+
 const darren = {
     fullName: "Darren Hoon",
     role:"",
     src: darrenProfile,
+    linkpresent: true,
+    link: "undefined",
 };
+
 const jiawen= {
     fullName: "Teh Jiewen",
     role:"",
     src: jiawenProfile,
+    linkpresent: true,
+    link: "undefined",
 };
 const qien= {
     fullName: "Tan Qi En",
     role:"",
     src: qienProfile,
+    linkpresent: true,
+    link: "undefined",
 };
 const deliang= {
     fullName: "Loo Deliang",

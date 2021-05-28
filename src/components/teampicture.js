@@ -1,4 +1,5 @@
 import React from "react";
+import Linkedin from "./../assets/linkedinLogo.png";
 
 
 const TeamPicture = (props) =>{
@@ -8,6 +9,7 @@ const TeamPicture = (props) =>{
             <h5 className="font-weight-bold mt-4" style={{color:'blue'}}>{props.cof}</h5>
             <h5 className="font-weight-bold">{props.description}</h5>
             <h5 className=" mb-3">{props.name}</h5>
+            <a className= {props.linkpresent ? 'link' : 'nolink'} href={props.link}> <img className= {props.linkpresent ? 'link' : 'nolink'} src={Linkedin} height={50}/> </a>
         </div>
     );
 }

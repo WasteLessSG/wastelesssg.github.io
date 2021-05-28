@@ -31,7 +31,7 @@ const ourSolution = () => {
             <Apppicturethree src={statisticsection.src} description={statisticsection.headertext} name={statisticsection.name} elaboration={statisticsection.elaboration}/>
           </div>
             <h2 id="hardware"> Hardware </h2>
-            <div className='desc-text'> Our Internet-of-Things networked smart chute electronics will be installed on existing rubbish chutes to convert them into WasteLess chutes.</div>
+            <div className='desc-text'> Our Internet-of-Things networked smart chute electronics are be installed on existing rubbish chutes to convert them into WasteLess chutes.</div>
             <div className='AppteamRows'>
               <Hardwarepicture src={outersection.src} description={outersection.headertext} name={outersection.name} elaboration={outersection.elaboration}/>
               <Hardwarepicturetwo src={innersection.src} description={innersection.headertext} name={innersection.name} elaboration={innersection.elaboration}/>

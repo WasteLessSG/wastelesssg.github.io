@@ -8,6 +8,7 @@ const Hardwarepicturetwo = (props) =>{
             <h6 className="app_desc">{props.description}</h6>
             <img src={props.src} className="hardpic" height={450}alt=""/>
             <br/>
+            <br/>
             <h6 className='app_elab'>{props.elaboration}</h6>
         </div>
     );

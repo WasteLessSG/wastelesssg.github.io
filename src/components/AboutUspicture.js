@@ -1,20 +1,12 @@
 import React from "react";
 
 
-
 const AboutUspicture = (props) =>{
     return(
-        <div className="AboutUspicture">
+        <div className="AboutUspicture" style={{}}>
             <img src={props.src} height={200} width={200} alt=""/>
-            <p></p>
-            <p></p>
-            <h5 className="font-weight-bold">{props.description}</h5>
-            <p></p>
-            <div class="container-md">
-              <h5 className=" mb-3">
-            {props.elaboration}</h5>
-            </div>
-            
+            <h5 style={{marginTop: 15}}> {props.header} </h5>
+            <h5 className='aboutus-text'> {props.elaboration}</h5>
         </div>
     );
 }
