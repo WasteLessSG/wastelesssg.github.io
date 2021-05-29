@@ -623,9 +623,7 @@ width: 50vw
   position: flex;
   align-items: center;
   flex-direction: column;
-  height: 350px;
-  padding-top: 40px;
-  padding-bottom: 200px;
+  height: 390px;
 
 }
 
@@ -650,9 +648,14 @@ width: 50vw
   }
 
 .about_header_img {
-    height: 30px;
+    height: 80px;
     width: auto;
   }
+
+  .about_header_text {
+      font-size: 20px;
+      width: auto;
+    }
 
 
 
