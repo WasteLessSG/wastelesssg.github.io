@@ -4,6 +4,19 @@
 
 .link {
   height: 50px;
+  transition: 0.3s;
+}
+
+.rounded-circle {
+  transition: 0.3s;
+}
+
+.rounded-circle:hover {
+  transform: scale(1.1);
+}
+
+.link:hover{
+  transform: scale(1.25);
 }
 
 .AboutUsContainer{
@@ -25,6 +38,7 @@
   align-items: center;
   justify-content: flex-start;
   margin-right: 900px;
+  transition: 0.3s;
 
 }
 
@@ -46,6 +60,10 @@
 .about_header_img {
   height: 100px;
   width: auto;
+}
+
+.left:hover {
+transform: scale(1.14);
 }
 
 .about_header_text {
