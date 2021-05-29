@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0057a05.chunk.css",
+    "main.css": "/static/css/main.d21861e1.chunk.css",
     "main.js": "/static/js/main.5c4f907c.chunk.js",
     "main.js.map": "/static/js/main.5c4f907c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e5a7c77c.js",
@@ -12,7 +12,7 @@
     "static/js/3.42b0c8eb.chunk.js.map": "/static/js/3.42b0c8eb.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.c0057a05.chunk.css.map": "/static/css/main.c0057a05.chunk.css.map",
+    "static/css/main.d21861e1.chunk.css.map": "/static/css/main.d21861e1.chunk.css.map",
     "static/js/2.4a91a817.chunk.js.LICENSE.txt": "/static/js/2.4a91a817.chunk.js.LICENSE.txt",
     "static/media/AppMock.8b21fe30.png": "/static/media/AppMock.8b21fe30.png",
     "static/media/BrainAnimation.4a07a972.png": "/static/media/BrainAnimation.4a07a972.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.e5a7c77c.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.4a91a817.chunk.js",
-    "static/css/main.c0057a05.chunk.css",
+    "static/css/main.d21861e1.chunk.css",
     "static/js/main.5c4f907c.chunk.js"
   ]
 }
