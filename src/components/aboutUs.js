@@ -3,11 +3,13 @@ import {who, ourvision, ourmission} from './AboutUsDescriptions.js';
 import AboutUspicture from './AboutUspicture';
 import {cdc, mse, sus, rice, moe} from './AboutUsInfo';
 import AboutUsLayout from './AboutUsLayout.js'
+import AboutUspic from './../assets/About-Us-Intro.JPG'
 const aboutUs = () => {
 
     return (
       <div>
-        <h1>About Us</h1>
+        <img className= "home-pic" src= {AboutUspic} alt = "OG Team Pic"/>
+        <h1 className='home-title'>About Us</h1>
           <AboutUspicture src={who.src} header={who.headertext} elaboration={who.elaboration}/>
           <AboutUspicture src={ourvision.src} header={ourvision.headertext} elaboration={ourvision.elaboration}/>
           <AboutUspicture src={ourmission.src} header={ourmission.headertext} elaboration={ourmission.elaboration}/>
