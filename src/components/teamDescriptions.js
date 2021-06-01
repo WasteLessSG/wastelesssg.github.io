@@ -50,7 +50,7 @@ const samuel = {
     cof : "Co-Founder",
     role: "VP of Operations/ Public Relations",
     src: samProfile ,
-    linkpresent: true,
+    linkpresent: false,
     link: "undefined",
     };
 
@@ -68,7 +68,7 @@ const darren = {
     role:"",
     src: darrenProfile,
     linkpresent: true,
-    link: "undefined",
+    link: "https://www.linkedin.com/in/darren-hoon-686900186/",
 };
 
 const jiawen= {
@@ -76,14 +76,14 @@ const jiawen= {
     role:"",
     src: jiawenProfile,
     linkpresent: true,
-    link: "undefined",
+    link: "https://www.linkedin.com/in/jiewen-teh-871828204/",
 };
 const qien= {
     fullName: "Tan Qi En",
     role:"",
     src: qienProfile,
     linkpresent: true,
-    link: "undefined",
+    link: "https://www.linkedin.com/in/tan-qi-en/",
 };
 const deliang= {
     fullName: "Loo Deliang",

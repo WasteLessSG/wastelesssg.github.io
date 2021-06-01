@@ -29,24 +29,24 @@ const ourTeam = () => {
             <h2>Engineering Team</h2>
             <br/>
             <div className='row teamRows'>
-                <TeamPicture src={chris.src}  name ={chris.fullName} linkpresent = {chris.linkpresent}/>
-                <TeamPicture src={jiawen.src}  name ={jiawen.fullName} linkpresent = {jiawen.linkpresent}/>
+                <TeamPicture src={chris.src}  name ={chris.fullName} linkpresent = {chris.linkpresent} link = {chris.link}/>
+                <TeamPicture src={jiawen.src}  name ={jiawen.fullName} linkpresent = {jiawen.linkpresent} link = {jiawen.link}/>
             </div>
             <h2>Web and App Development Team</h2>
             <div className='row teamRows'>
-                <TeamPicture src={ardi.src} name ={ardi.fullName} linkpresent = {ardi.linkpresent}/>
-                <TeamPicture src={qien.src} name ={qien.fullName} linkpresent = {qien.linkpresent}/>
+                <TeamPicture src={ardi.src} name ={ardi.fullName} linkpresent = {ardi.linkpresent}  link = {ardi.link}/>
+                <TeamPicture src={qien.src} name ={qien.fullName} linkpresent = {qien.linkpresent}  link = {qien.link}/>
                 <TeamPicture src={samuel.src}  name ={samuel.fullName} linkpresent = {samuel.linkpresent}/>
 
             </div>
             <div className = 'row teamRows'>
-                <TeamPicture src={pradeep.src}  name ={pradeep.fullName} linkpresent = {pradeep.linkpresent}/>
-                <TeamPicture src={darren.src} name ={darren.fullName} linkpresent = {darren.linkpresent}/>
+                <TeamPicture src={pradeep.src}  name ={pradeep.fullName} linkpresent = {pradeep.linkpresent}  link = {pradeep.link}/>
+                <TeamPicture src={darren.src} name ={darren.fullName} linkpresent = {darren.linkpresent}  link = {darren.link}/>
             </div>
             <h2>Media and Public Relations</h2>
             <div className='row teamRows'>
-                <TeamPicture src={samuel.src}  name ={samuel.fullName} linkpresent = {samuel.linkpresent}/>
-                <TeamPicture src={raphael.src} name ={raphael.fullName} linkpresent = {raphael.linkpresent}/>
+                <TeamPicture src={samuel.src}  name ={samuel.fullName} linkpresent = {samuel.linkpresent}  />
+                <TeamPicture src={raphael.src} name ={raphael.fullName} linkpresent = {raphael.linkpresent}  link = {raphael.link}/>
             </div>
 
         </div>
