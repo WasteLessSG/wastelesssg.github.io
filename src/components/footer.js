@@ -32,7 +32,7 @@ import logo from './../assets/logo.png'
                 </div>
             </div>
             <div className='row copyrightLine'>
-                Copyright © 2020 WasteLess. All rights reserved. Designed by WasteLess Web Dev Team.
+                Copyright © 2020 WasteLess. All rights reserved. Designed by WasteLess Web Dev Team. Some images were taken from The Noun Project.
             </div>
         </div>
 
