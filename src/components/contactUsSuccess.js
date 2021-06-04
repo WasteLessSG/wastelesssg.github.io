@@ -1,7 +1,7 @@
 import React from "react";
 import {Button} from 'react-bootstrap';
 
-const contactUsSuccess = () => {
+const ContactUsSuccess = () => {
 
     return (
         <div>
@@ -26,4 +26,4 @@ const contactUsSuccess = () => {
 
 }
 
-export default contactUsSuccess;
+export default ContactUsSuccess;
